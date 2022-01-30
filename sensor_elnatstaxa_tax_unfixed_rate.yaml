@@ -1,0 +1,168 @@
+- platform: template
+  sensors:
+    elnatstaxa_fixed_tax_unfixed_rate_today_hr_00_01:
+        value_template: "{{ (((((states('elnatstaxa_fixed_tax_unfixed_rate_today_hr_00_01:')|int) + 0.7063)))|round(2) )}}"
+        unit_of_measurement: 'kr/kWh'
+        friendly_name: Elnätstaxa fixed tax unfixed rate today 00:00 - 01:00
+
+- platform: template
+  sensors:
+    elnatstaxa_fixed_tax_unfixed_rate_today_hr_01_02:
+        value_template: "{{ (((((states('elnatstaxa_fixed_tax_unfixed_rate_today_hr_01_02:')|int) + 0.7063)))|round(2) )}}"
+        unit_of_measurement: 'kr/kWh'
+        friendly_name: Elnätstaxa fixed tax unfixed rate today 01:00 - 02:00
+
+- platform: template
+  sensors:
+    elnatstaxa_fixed_tax_unfixed_rate_today_hr_02_03:
+        value_template: "{{ (((((states('elnatstaxa_fixed_tax_unfixed_rate_today_hr_02_03:')|int) + 0.7063)))|round(2) )}}"
+        unit_of_measurement: 'kr/kWh'
+        friendly_name: Elnätstaxa fixed tax unfixed rate today 02:00 - 03:00
+
+- platform: template
+  sensors:
+    elnatstaxa_fixed_tax_unfixed_rate_today_hr_03_04:
+        value_template: "{{ (((((states('elnatstaxa_fixed_tax_unfixed_rate_today_hr_03_04:')|int) + 0.7063)))|round(2) )}}"
+        unit_of_measurement: 'kr/kWh'
+        friendly_name: Elnätstaxa fixed tax unfixed rate today 03:00 - 04:00
+
+- platform: template
+  sensors:
+    elnatstaxa_fixed_tax_unfixed_rate_today_hr_04_05:
+        value_template: "{{ (((((states('elnatstaxa_fixed_tax_unfixed_rate_today_hr_04_05:')|int) + 0.7063)))|round(2) )}}"
+        unit_of_measurement: 'kr/kWh'
+        friendly_name: Elnätstaxa fixed tax unfixed rate today 04:00 - 05:00
+
+- platform: template
+  sensors:
+    elnatstaxa_fixed_tax_unfixed_rate_today_hr_05_06:
+        value_template: "{{ (((((states('elnatstaxa_fixed_tax_unfixed_rate_today_hr_05_06:')|int) + 0.7063)))|round(2) )}}"
+        unit_of_measurement: 'kr/kWh'
+        friendly_name: Elnätstaxa fixed tax unfixed rate today 05:00 - 06:00
+
+- platform: template
+  sensors:
+    elnatstaxa_fixed_tax_unfixed_rate_today_hr_06_07:
+        value_template: "{{ (((((states('elnatstaxa_fixed_tax_unfixed_rate_today_hr_06_07:')|int) + 0.7063)))|round(2) )}}"
+        unit_of_measurement: 'kr/kWh'
+        friendly_name: Elnätstaxa fixed tax unfixed rate today 06:00 - 07:00
+
+- platform: template
+  sensors:
+    elnatstaxa_fixed_tax_unfixed_rate_today_hr_07_08:
+        value_template: "{{ (((((states('elnatstaxa_fixed_tax_unfixed_rate_today_hr_07_08:')|int) + 0.7063)))|round(2) )}}"
+        unit_of_measurement: 'kr/kWh'
+        friendly_name: Elnätstaxa fixed tax unfixed rate today 07:00 - 08:00
+
+- platform: template
+  sensors:
+    elnatstaxa_fixed_tax_unfixed_rate_today_hr_08_09:
+        value_template: "{{ (((((states('elnatstaxa_fixed_tax_unfixed_rate_today_hr_08_09:')|int) + 0.7063)))|round(2) )}}"
+        unit_of_measurement: 'kr/kWh'
+        friendly_name: Elnätstaxa fixed tax unfixed rate today 08:00 - 09:00
+
+- platform: template
+  sensors:
+    elnatstaxa_fixed_tax_unfixed_rate_today_hr_09_10:
+        value_template: "{{ (((((states('elnatstaxa_fixed_tax_unfixed_rate_today_hr_09_10:')|int) + 0.7063)))|round(2) )}}"
+        unit_of_measurement: 'kr/kWh'
+        friendly_name: Elnätstaxa fixed tax unfixed rate today 09:00 - 10:00
+
+- platform: template
+  sensors:
+    elnatstaxa_fixed_tax_unfixed_rate_today_hr_10_11:
+        value_template: "{{ (((((states('elnatstaxa_fixed_tax_unfixed_rate_today_hr_10_11:')|int) + 0.7063)))|round(2) )}}"
+        unit_of_measurement: 'kr/kWh'
+        friendly_name: Elnätstaxa fixed tax unfixed rate today 10:00 - 11:00
+
+- platform: template
+  sensors:
+    elnatstaxa_fixed_tax_unfixed_rate_today_hr_11_12:
+        value_template: "{{ (((((states('elnatstaxa_fixed_tax_unfixed_rate_today_hr_11_12:')|int) + 0.7063)))|round(2) )}}"
+        unit_of_measurement: 'kr/kWh'
+        friendly_name: Elnätstaxa fixed tax unfixed rate today 11:00 - 12:00
+
+- platform: template
+  sensors:
+    elnatstaxa_fixed_tax_unfixed_rate_today_hr_12_13:
+        value_template: "{{ (((((states('elnatstaxa_fixed_tax_unfixed_rate_today_hr_12_13:')|int) + 0.7063)))|round(2) )}}"
+        unit_of_measurement: 'kr/kWh'
+        friendly_name: Elnätstaxa fixed tax unfixed rate today 12:00 - 13:00
+
+- platform: template
+  sensors:
+    elnatstaxa_fixed_tax_unfixed_rate_today_hr_13_14:
+        value_template: "{{ (((((states('elnatstaxa_fixed_tax_unfixed_rate_today_hr_13_14:')|int) + 0.7063)))|round(2) )}}"
+        unit_of_measurement: 'kr/kWh'
+        friendly_name: Elnätstaxa fixed tax unfixed rate today 13:00 - 14:00
+
+- platform: template
+  sensors:
+    elnatstaxa_fixed_tax_unfixed_rate_today_hr_14_15:
+        value_template: "{{ (((((states('elnatstaxa_fixed_tax_unfixed_rate_today_hr_14_15:')|int) + 0.7063)))|round(2) )}}"
+        unit_of_measurement: 'kr/kWh'
+        friendly_name: Elnätstaxa fixed tax unfixed rate today 14:00 - 15:00
+
+- platform: template
+  sensors:
+    elnatstaxa_fixed_tax_unfixed_rate_today_hr_15_16:
+        value_template: "{{ (((((states('elnatstaxa_fixed_tax_unfixed_rate_today_hr_15_16:')|int) + 0.7063)))|round(2) )}}"
+        unit_of_measurement: 'kr/kWh'
+        friendly_name: Elnätstaxa fixed tax unfixed rate today 15:00 - 16:00
+
+- platform: template
+  sensors:
+    elnatstaxa_fixed_tax_unfixed_rate_today_hr_16_17:
+        value_template: "{{ (((((states('elnatstaxa_fixed_tax_unfixed_rate_today_hr_16_17:')|int) + 0.7063)))|round(2) )}}"
+        unit_of_measurement: 'kr/kWh'
+        friendly_name: Elnätstaxa fixed tax unfixed rate today 16:00 - 17:00
+
+- platform: template
+  sensors:
+    elnatstaxa_fixed_tax_unfixed_rate_today_hr_17_18:
+        value_template: "{{ (((((states('elnatstaxa_fixed_tax_unfixed_rate_today_hr_17_18:')|int) + 0.7063)))|round(2) )}}"
+        unit_of_measurement: 'kr/kWh'
+        friendly_name: Elnätstaxa fixed tax unfixed rate today 17:00 - 18:00
+
+- platform: template
+  sensors:
+    elnatstaxa_fixed_tax_unfixed_rate_today_hr_18_19:
+        value_template: "{{ (((((states('elnatstaxa_fixed_tax_unfixed_rate_today_hr_18_19:')|int) + 0.7063)))|round(2) )}}"
+        unit_of_measurement: 'kr/kWh'
+        friendly_name: Elnätstaxa fixed tax unfixed rate today 18:00 - 19:00
+
+- platform: template
+  sensors:
+    elnatstaxa_fixed_tax_unfixed_rate_today_hr_19_20:
+        value_template: "{{ (((((states('elnatstaxa_fixed_tax_unfixed_rate_today_hr_19_20:')|int) + 0.7063)))|round(2) )}}"
+        unit_of_measurement: 'kr/kWh'
+        friendly_name: Elnätstaxa fixed tax unfixed rate today 19:00 - 20:00
+
+- platform: template
+  sensors:
+    elnatstaxa_fixed_tax_unfixed_rate_today_hr_20_21:
+        value_template: "{{ (((((states('elnatstaxa_fixed_tax_unfixed_rate_today_hr_20_21:')|int) + 0.7063)))|round(2) )}}"
+        unit_of_measurement: 'kr/kWh'
+        friendly_name: Elnätstaxa fixed tax unfixed rate today 20:00 - 21:00
+
+- platform: template
+  sensors:
+    elnatstaxa_fixed_tax_unfixed_rate_today_hr_21_22:
+        value_template: "{{ (((((states('elnatstaxa_fixed_tax_unfixed_rate_today_hr_21_22:')|int) + 0.7063)))|round(2) )}}"
+        unit_of_measurement: 'kr/kWh'
+        friendly_name: Elnätstaxa fixed tax unfixed rate today 21:00 - 22:00
+
+- platform: template
+  sensors:
+    elnatstaxa_fixed_tax_unfixed_rate_today_hr_22_23:
+        value_template: "{{ (((((states('elnatstaxa_fixed_tax_unfixed_rate_today_hr_22_23:')|int) + 0.7063)))|round(2) )}}"
+        unit_of_measurement: 'kr/kWh'
+        friendly_name: Elnätstaxa fixed tax unfixed rate today 22:00 - 23:00
+
+- platform: template
+  sensors:
+    elnatstaxa_fixed_tax_unfixed_rate_today_hr_23_00:
+        value_template: "{{ (((((states('elnatstaxa_fixed_tax_unfixed_rate_today_hr_23_00:')|int) + 0.7063)))|round(2) )}}"
+        unit_of_measurement: 'kr/kWh'
+        friendly_name: Elnätstaxa fixed tax unfixed rate today 23:00 - 00:00        
+        

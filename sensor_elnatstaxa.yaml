@@ -1,0 +1,33 @@
+##############add energiskatt###########
+# statlig skatt på all el till privatpersoner = 0,45kr/kWh
+########################################
+- platform: template
+  sensors:
+    energiskatt_today_hr_00_01:
+        value_template: "{{ (((((states('energiskatt_today_hr_00_01')|int) + 0.45)))|round(2) )}}"
+        unit_of_measurement: 'kr/kWh'
+        friendly_name: Energiskatt today 00:00 - 01:00
+###############add energinatavgift rorlig del#################
+# 20A säkring enligt Ellevio kostar 0,2563kr/kWh i rörlig del
+#############################################################
+- platform: template
+  sensors:
+    energinatavgift_rorlig_today_hr_00_01:
+        value_template: "{{ (((((states('energinatavgift_rorlig_today_hr_00_01')|int) + 0.2563)))|round(2) )}}"
+        unit_of_measurement: 'kr/kWh'
+        friendly_name: Energinatavgift rorlig today 00:00 - 01:00
+###############add energinatavgift fast del#################
+# 20A säkring enligt Ellevio kostar 360kr/mån -> kr/kWh => (360 * 12) / (365 * 24) = 0.47945 kr/kWh
+# calculate fast del with your own fixed tariff rate
+############################################################
+- platform: template
+  sensors:
+    energinatavgift_fast_today_hr_00_01:
+        value_template: "{{ (((((states('energinatavgift_fast_today_hr_00_01')|int) + 0.47945)))|round(2) )}}"
+        unit_of_measurement: 'kr/kWh'
+        friendly_name: Energinatavgift fast today 00:00 - 01:00
+##############################################################
+
+# multiple these sensors for every hour i.e 01:00-02:00 and so on.. (mind the high/low rates during the day!!)
+# I'll complete this list later on.
+################################################################

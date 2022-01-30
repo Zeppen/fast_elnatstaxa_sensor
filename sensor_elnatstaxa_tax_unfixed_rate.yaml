@@ -1,3 +1,10 @@
+################################################################################################################################################################
+# this file calculates the fixed energy tax rate + the energy transmission cost (unfixed part) into one price only
+# you need to add the fixed amount per month in some way too,  either by kr/h or by calculating together with your estimated energy consumption bought from the grid
+#### add these sensors to your sensors.yaml file and you're good to calculate it together with energy prices from elhandelspriser (i.e. nordpool / tibber
+################################################################################################################################################################
+
+
 - platform: template
   sensors:
     elnatstaxa_fixed_tax_unfixed_rate_today_hr_00_01:

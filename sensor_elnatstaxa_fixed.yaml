@@ -1,0 +1,15 @@
+###############  sensor - fixed tax and UNfixed rate combined #############
+- platform: template
+  sensors:
+    elnatstaxa_fixed_tax_unfixed_rate_today_hr_00_01:
+        value_template: "{{ (((((states('elnatstaxa_fixed_tax_unfixed_rate_today_hr_00_01:')|int) + 0.7063)))|round(2) )}}"
+        unit_of_measurement: 'kr/kWh'
+        friendly_name: Elnätstaxa fixed tax unfixed rate today 00:00 - 01:00
+##################################################################################
+###############  sensor - re-calculated fixed monthly price to kr/h (NOT per kWH!!!) #############
+- platform: template
+  sensors:
+    elnatstaxa_fixed_rate_per_hr_00_01:
+        value_template: "{{ (((((states('elnatstaxa_fixed_rate_per_hr_00_01')|int) + 0.49315)))|round(2) )}}"
+        unit_of_measurement: 'kr/h'
+        friendly_name: Elnätstaxa fixed rate today 00:00 - 01:00
